@@ -1,3 +1,35 @@
+# How do you explain the huge gap in my resume *cough* github pushes/commits? This big ole project!
+
+
+![Screen Shot 2024-08-01 at 1 56 50 AM](https://github.com/user-attachments/assets/4a0390dc-6b04-4165-bb1f-c4d3461ba33d)
+
+
+
+![Screen Shot 2024-08-01 at 1 57 14 AM](https://github.com/user-attachments/assets/9b94f0c8-79db-48d0-9264-1aa8d248d518)
+
+
+# This project fetches pokemon data from the pokeapi with thousands of assets I uploaded into the project that were rendered according to the species
+
+
+
+![Screen Shot 2024-08-01 at 1 57 41 AM](https://github.com/user-attachments/assets/7a39fa55-2700-4931-9a55-c56a9bf01b0a)
+
+
+# It even has a working google log in to allow you to save your favorite pokemon in your own personal list!
+
+
+![Screen Shot 2024-08-01 at 2 02 06 AM](https://github.com/user-attachments/assets/2d1d2313-cd51-48f8-b8b5-a77e1dc680b2)
+
+# The original project creator didn't allow for mobile responsiveness so I added a working hamburger menu that hides the navbar and utilizes a menu backdrop to allow smaller devices to use it accordingly 
+
+
+![Screen Shot 2024-08-01 at 2 04 39 AM](https://github.com/user-attachments/assets/3698b817-8c30-473d-adc9-49a3acd78540)
+
+
+![Screen Shot 2024-08-01 at 2 05 05 AM](https://github.com/user-attachments/assets/4ff78da6-831c-4c22-916c-d5839ecd1a1d)
+
+# The reason I didn't push this project to github the moment of creation was due to the fact I had to find a workaround to deploy the working project with the large number (thousands of images!) of assets - so I deployed to netlify first and was able to utilize the gitignore file to not push the assets with all the project code into github all while having a working project. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
