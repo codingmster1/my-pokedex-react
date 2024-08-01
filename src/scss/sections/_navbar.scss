@@ -1,0 +1,249 @@
+nav {
+    display: grid;
+    grid-template-columns: 5rem auto 5rem;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.203);
+    .data {
+      margin: 0px;
+      border: 0.5px solid rgba(255, 255, 255, 0.203);
+      border-top: none;
+      border-bottom: none;
+      padding: 0 20rem;
+      ul {
+        display: grid;
+        grid-template-columns: repeat(5, 20%);
+        height: 100%;
+        list-style-type: none;
+        z-index: 1;
+        position: relative;
+        a {
+          text-decoration: none;
+          color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-bottom: 1px solid transparent;
+          // &:hover {
+          //   border-color: whitesmoke;
+          // }
+          li {
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            font-weight: 500;
+            letter-spacing: 0.2rem;
+            text-decoration: none;
+          }
+        }
+        // .active {
+        //   border-color: whitesmoke;
+        // }
+      }
+    }
+  
+    .block {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      svg {
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+      }
+      img {
+        cursor: pointer;
+        height: 3rem;
+      }
+    }
+  }
+  .nav__menu 
+  {
+    display: none;
+  }
+  :root {
+    --underline-height: 4px;
+    --transition-duration: 0.5s;
+  }
+  
+  .underline {
+    z-index: 10;
+    height: calc(var(--underline-height) / 2);
+    mix-blend-mode: initial;
+  }
+  
+  .underline {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+    height: var(--underline-height);
+    width: 20%;
+    background-color: white;
+    pointer-events: none;
+    transition: transform var(--transition-duration) ease-in-out;
+  
+    &:nth-child(1) {
+      transition: calc(var(--transition-duration) * 0.8);
+    }
+    &:nth-child(2) {
+      transition: calc(var(--transition-duration) * 1.2);
+    }
+  }
+
+
+/* hamburger menu */
+
+.menu__backdrop 
+{
+  position: absolute;
+  background-color: rgb(3, 3, 3);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  opacity: 0;
+  display: flex;
+  transition: all 300ms ease;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  transform: translate(100%);
+}
+
+.menu--open .menu__backdrop
+{
+  transform: translate(0);
+opacity: 1;
+visibility: visible;
+}
+
+.btn__menu--close 
+{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  padding: 8px;
+  font-size: 24px;
+  color: white;
+}
+
+.menu__link 
+{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  margin: 2rem;
+}
+
+.menu__list 
+{
+  padding: 32px 0;
+}
+
+.menu__links 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn__menu--close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  font-size: 5rem;
+}
+
+.btn__menu 
+{
+  color: white;
+  background-color: transparent;
+  font-size: 3rem;
+  position: absolute;
+    top: 33px;
+    right: 9px;
+    padding: 8px;
+}
+
+.hamburger__visible
+{
+  display: none;
+  visibility: hidden;
+}
+
+/* hamburger menu */
+  
+  @media (max-width: 1095px) {
+    nav .data {
+      margin: 22px; 
+      padding: 0rem;
+    }
+  }
+
+
+  @media (max-width: 1118px) {
+    nav .data {
+      padding: 0rem;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    nav .data {
+      padding: 0rem;
+      letter-spacing: 0.1rem;
+    }
+  }
+
+  @media (max-width: 725px) {
+    nav .data {
+      padding: 0rem;
+      letter-spacing: 0.1rem;
+      font-size: 0.7rem;
+    }
+    }
+
+    @media (max-width: 630px)
+    {
+      nav .data {
+        padding: 0rem;
+        letter-spacing: 0.1rem;
+        font-size: 0.6rem;
+      }
+    }
+
+    @media (max-width: 550px)
+    {
+      .btn__menu 
+    {
+  font-size: 3rem;
+  position: absolute;
+    top: 33px;
+    right: 9px;
+    padding: 8px;
+    visibility: visible;
+    }
+    .hamburger__visible
+    {
+      display: block;
+      visibility: visible;
+    }
+      .data 
+      {
+        display: none;
+      }
+    }
+
+   
+  
+
+
+ 
+
+ 

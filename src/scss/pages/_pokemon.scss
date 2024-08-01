@@ -1,0 +1,167 @@
+.circle-container {
+    display: flex;
+    margin-top: 3rem;
+    .outer-circle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 24rem;
+      width: 24rem;
+      border: 0.2rem solid var(--accent-color);
+      border-radius: 50rem;
+      position: relative;
+    }
+    .inner-circle {
+      height: 20rem;
+      width: 20rem;
+      border: 0.3rem solid var(--accent-color);
+      border-radius: 40rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        max-inline-size: 100%;
+        block-size: auto;
+        z-index: 99;
+        height: 17rem;
+      }
+    }
+    .lines {
+      display: flex;
+      gap: 3rem;
+      position: absolute;
+      .line {
+        height: 28rem;
+        width: 0.3rem;
+        background-color: var(--accent-color);
+        transform: rotate(45deg);
+      }
+    }
+  }
+  
+  .circle-container-2 {
+    .outer-circle {
+      border-color: #59591c;
+    }
+    .inner-circle {
+      border-color: #ffff33;
+    }
+    .lines {
+      .line {
+        background-color: #ffff33;
+      }
+    }
+  }
+  
+  .circle-container-3 {
+    .outer-circle {
+      border-color: #833719;
+    }
+    .inner-circle {
+      border-color: #ff5f1f;
+    }
+    .lines {
+      .line {
+        background-color: #ff5f1f;
+      }
+    }
+  }
+
+  @media (max-width: 1075px) {
+    .circle-container {
+      .outer-circle {
+        height: 20rem;
+        width: 20rem;
+      }
+      .inner-circle {
+        height: 16rem;
+        width: 16rem;
+        img {
+          height: 13rem;
+        }
+      }
+      .lines {
+        .line {
+          height: 22rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1020px) {
+    .circle-container {
+      .outer-circle {
+        height: 20rem;
+        width: 20rem;
+        margin-top: 13rem;
+      }
+      .inner-circle {
+        height: 12rem;
+        width: 12rem;
+        img {
+          height: 12rem;
+        }
+      }
+      .lines {
+        .line {
+          height: 18rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 745px) {
+    .circle-container {
+      .outer-circle {
+        height: 16rem;
+        width: 16rem;
+        margin-top: 12rem;
+      }
+      .inner-circle {
+        height: 10rem;
+        width: 10rem;
+        img {
+          height: 10rem;
+          z-index: 99;
+        }
+      }
+      .lines {
+        .line {
+          height: 14rem;
+        }
+      }
+    }
+  }
+
+
+
+  @media (max-width: 545px) 
+  {
+    .circle-container .outer-circle 
+    {
+        height: 12rem;
+        width: 12rem;
+        margin-top: 10rem;
+    }
+    .details 
+    {
+        width: 20rem;
+    }
+    .stats ul 
+    {
+        margin-bottom: 15rem;
+        width: 16rem;
+        height: 14rem;
+    }
+    .battle-stats 
+    {
+        width: 20rem;
+        bottom: 3rem;
+        right: 2rem;
+        padding: 2rem;
+        .add-pokemon 
+        {
+            font-size: 0.8rem;
+        }
+    }
+  }

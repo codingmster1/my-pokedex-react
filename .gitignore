@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+
+/src/assets/sprites-master
+/src/assets/sprites-master/
+
 # testing
 /coverage
 
@@ -17,7 +21,11 @@
 .env.development.local
 .env.test.local
 .env.production.local
-
+assets
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Local Netlify folder
+.netlify
+node_modules

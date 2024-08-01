@@ -1,0 +1,75 @@
+.compare {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+
+
+  @media (max-width: 545px)
+  {
+    .compare-container {
+        display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: center; 
+      }
+    
+      .compare-container .empty h3 {
+        font-size: 0.7 
+      }
+    
+     
+      .compare-container button {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+      }
+      .compare-container .empty button {
+        padding: 1.2rem; 
+        font-size: 1rem; 
+      }
+}
+
+@media (max-width: 535px)
+{
+    .compare-container .empty h3 {
+        font-size: 0.6rem;
+        padding: 0.2rem;
+    }
+    .compare-container .empty button {
+        padding: 0.8rem;
+    }
+    .compare-container .empty button svg {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .compare-container .empty h3 {
+        display: none;
+    }
+}
+
+@media (max-width: 485px)
+{
+    .compare-container .empty h3 {
+        font-size: 0.4rem;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 675px)
+  {
+    .compare-container .empty button {
+        font-size: 0.4rem;
+        padding: 1rem;
+    }
+    .empty h3 
+    {
+        font-size: 0.8rem;
+    }
+  }
