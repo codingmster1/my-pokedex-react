@@ -5,13 +5,13 @@ import { getFirestore, collection } from "firebase/firestore";
 
 
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-    appId: process.env.REACT_APP_FIREBASE_APP_ID,
-    measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
+    apiKey: "AIzaSyDCq1xnWv7CrPgAKSjzaOeuj2_o5AKcPuk",
+    authDomain: "pokedex-react-e932b.firebaseapp.com",
+    projectId: "pokedex-react-e932b",
+    storageBucket: "pokedex-react-e932b.appspot.com",
+    messagingSenderId: "856358800980",
+    appId: "1:856358800980:web:e38d8f34089ea52e6667c1",
+    measurementId: "G-3EX53QMXQR"
 };
 
 // Initialize Firebase

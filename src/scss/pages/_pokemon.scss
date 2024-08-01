@@ -165,3 +165,66 @@
         }
     }
   }
+
+  @media (max-width: 480px)
+  {
+    .circle-container .outer-circle {
+        height: 5rem;
+        width: 10rem;
+        margin-top: 11rem;
+    }
+    .circle-container .inner-circle img {
+        height: 7rem;
+    }
+    .circle-container .inner-circle {
+        height: 9rem;
+        width: 8rem;
+    }
+    .stats ul 
+    {
+        margin-bottom: 15rem;
+        width: 10rem;
+        height: 23rem;
+    }
+    .details 
+    {
+        width: 14rem;
+    }
+    .battle-stats {
+        width: 16rem;
+        bottom: 3rem;
+        right: 1rem;
+        padding: 1rem;
+        height: auto;
+        width: 83%;
+
+    }
+  }
+
+  @media (max-width: 412px)
+  {
+    .stats ul {
+        margin-bottom: 1rem;
+        width: 14rem;
+        height: 17rem;
+    }
+    .circle-container .inner-circle img {
+        height: 4rem;
+    }
+    .circle-container .inner-circle {
+        height: 6rem;
+        width: 6rem;
+    }
+    .circle-container .lines {
+        gap: 2rem;
+        height: 12rem;
+    }
+    .circle-container .lines .line {
+        height: 11rem;
+    }
+    .circle-container .outer-circle {
+        height: 5rem;
+        width: 7rem;
+        margin-top: 11rem;
+    }
+  }

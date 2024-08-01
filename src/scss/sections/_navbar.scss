@@ -240,6 +240,14 @@ visibility: visible;
       }
     }
 
+    @media (max-width: 412px)
+    {
+      .btn__menu {
+        font-size: 2rem;
+        top: 22px;
+    }
+    }
+
    
   
 

@@ -42,4 +42,26 @@
         margin-bottom: 15rem;
       }
     }
+
+    @media (max-width: 475px)
+    {
+        .stats {
+            position: absolute;
+            left: 1rem;
+            bottom: 7rem;
+        }
+        .stats ul li progress {
+            display: none;
+        }
+        .stats ul  {
+           font-size: 0.7rem;
+        }
+    }
+
+    @media (max-width: 412px)
+    {
+        .stats ul li {
+            font-size: 0.6rem;
+        }
+    }
   

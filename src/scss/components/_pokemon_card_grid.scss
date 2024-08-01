@@ -148,4 +148,14 @@
         margin-left: 2rem;
         }
     }
+
+    @media (max-width: 412px)
+    {
+       .pokemon-card-grid .pokemon-card {
+        width: 150px;
+        margin-bottom: 0rem;
+        left: 1rem;
+    }
+  
+}
   
