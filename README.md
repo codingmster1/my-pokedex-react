@@ -28,6 +28,12 @@
 
 ![Screen Shot 2024-08-01 at 2 05 05 AM](https://github.com/user-attachments/assets/4ff78da6-831c-4c22-916c-d5839ecd1a1d)
 
+![Screen Shot 2024-08-02 at 3 08 18 AM](https://github.com/user-attachments/assets/e0ede4fc-74e6-46f8-aa8d-a74c9eed7417)
+
+![Screen Shot 2024-08-02 at 3 07 41 AM](https://github.com/user-attachments/assets/cdad4838-a8e9-4442-aff8-306d2f2615d1)
+
+![Screen Shot 2024-08-02 at 3 10 50 AM](https://github.com/user-attachments/assets/5f07253a-8657-4e50-8cb8-0476c850ec91)
+
 # The reason I didn't push this project to github the moment of creation was due to the fact I had to find a workaround to deploy the working project with the large number (thousands of images!) of assets - so I deployed to netlify first and was able to utilize the gitignore file to not push the assets with all the project code into github all while having a working project. 
 
 # Getting Started with Create React App
