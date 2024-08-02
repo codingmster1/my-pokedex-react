@@ -144,3 +144,10 @@
         font-size: 0.6rem;
     }
   }
+  
+  @media (max-width: 412px)
+  {
+    .battle-stats .add-pokemon {
+        right: 2rem;
+    }
+  }

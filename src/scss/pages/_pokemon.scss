@@ -203,13 +203,21 @@
 
   @media (max-width: 412px)
   {
+    .battle-stats {
+        width: 14rem;
+        bottom: 3rem;
+        right: 1rem;
+        padding: 2rem;
+        height: auto;
+    }
     .stats ul {
         margin-bottom: 1rem;
         width: 14rem;
         height: 17rem;
+        display: none;
     }
     .circle-container .inner-circle img {
-        height: 4rem;
+        height: 3rem;
     }
     .circle-container .inner-circle {
         height: 6rem;
@@ -223,8 +231,11 @@
         height: 11rem;
     }
     .circle-container .outer-circle {
-        height: 5rem;
-        width: 7rem;
-        margin-top: 11rem;
+        height: 3rem;
+        width: 6rem;
+       /*  margin-top: 11rem; */
+    }
+    .circle-container {
+        margin-top: 4rem;
     }
   }
